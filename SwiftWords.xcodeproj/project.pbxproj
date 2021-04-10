@@ -16,8 +16,19 @@
 		7498D88F2620F7AD0069D268 /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7498D88E2620F7AD0069D268 /* start.txt */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		747932D026225246007C6FC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7498D86D2620F4E40069D268 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7498D8742620F4E40069D268;
+			remoteInfo = SwiftWords;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		747932C626223FC9007C6FC9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		747932CB26225246007C6FC9 /* SwiftWordsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftWordsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7498D8752620F4E40069D268 /* SwiftWords.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftWords.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7498D8782620F4E40069D268 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7498D87A2620F4E40069D268 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -30,6 +41,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		747932C826225246007C6FC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7498D8722620F4E40069D268 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -53,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				7498D8752620F4E40069D268 /* SwiftWords.app */,
+				747932CB26225246007C6FC9 /* SwiftWordsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -75,6 +94,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		747932CA26225246007C6FC9 /* SwiftWordsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 747932D226225246007C6FC9 /* Build configuration list for PBXNativeTarget "SwiftWordsTests" */;
+			buildPhases = (
+				747932C726225246007C6FC9 /* Sources */,
+				747932C826225246007C6FC9 /* Frameworks */,
+				747932C926225246007C6FC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				747932D126225246007C6FC9 /* PBXTargetDependency */,
+			);
+			name = SwiftWordsTests;
+			productName = SwiftWordsTests;
+			productReference = 747932CB26225246007C6FC9 /* SwiftWordsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		7498D8742620F4E40069D268 /* SwiftWords */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7498D8892620F4E40069D268 /* Build configuration list for PBXNativeTarget "SwiftWords" */;
@@ -101,6 +138,10 @@
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
+					747932CA26225246007C6FC9 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 7498D8742620F4E40069D268;
+					};
 					7498D8742620F4E40069D268 = {
 						CreatedOnToolsVersion = 12.4;
 					};
@@ -120,11 +161,19 @@
 			projectRoot = "";
 			targets = (
 				7498D8742620F4E40069D268 /* SwiftWords */,
+				747932CA26225246007C6FC9 /* SwiftWordsTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		747932C926225246007C6FC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7498D8732620F4E40069D268 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -139,6 +188,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		747932C726225246007C6FC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7498D8712620F4E40069D268 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -150,6 +206,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		747932D126225246007C6FC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7498D8742620F4E40069D268 /* SwiftWords */;
+			targetProxy = 747932D026225246007C6FC9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		7498D87E2620F4E40069D268 /* Main.storyboard */ = {
@@ -171,6 +235,46 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		747932D326225246007C6FC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 29M5XC87UV;
+				INFOPLIST_FILE = SwiftWordsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.deadrabbit.SwiftWordsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftWords.app/SwiftWords";
+			};
+			name = Debug;
+		};
+		747932D426225246007C6FC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 29M5XC87UV;
+				INFOPLIST_FILE = SwiftWordsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.deadrabbit.SwiftWordsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftWords.app/SwiftWords";
+			};
+			name = Release;
+		};
 		7498D8872620F4E40069D268 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -328,6 +432,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		747932D226225246007C6FC9 /* Build configuration list for PBXNativeTarget "SwiftWordsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				747932D326225246007C6FC9 /* Debug */,
+				747932D426225246007C6FC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		7498D8702620F4E40069D268 /* Build configuration list for PBXProject "SwiftWords" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

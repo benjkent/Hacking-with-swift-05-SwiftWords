@@ -14,7 +14,8 @@
 ## Coding Overview
 * 
 ## Credit
-* Hackingwithswift 
+* Hackingwithswift [Project 5](https://www.hackingwithswift.com/100/27)
+* Andrey Rudenko (Andrew) [Add Toast message in swift](https://stackoverflow.com/questions/31540375/how-to-toast-message-in-swift)
 ## Swift topics covered in this project
 
 ## Project Challenges
