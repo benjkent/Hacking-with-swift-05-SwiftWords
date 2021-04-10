@@ -13,6 +13,7 @@
 		7498D8802620F4E40069D268 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7498D87E2620F4E40069D268 /* Main.storyboard */; };
 		7498D8822620F4E40069D268 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7498D8812620F4E40069D268 /* Assets.xcassets */; };
 		7498D8852620F4E40069D268 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7498D8832620F4E40069D268 /* LaunchScreen.storyboard */; };
+		7498D88F2620F7AD0069D268 /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7498D88E2620F7AD0069D268 /* start.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		7498D8812620F4E40069D268 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7498D8842620F4E40069D268 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7498D8862620F4E40069D268 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7498D88E2620F7AD0069D268 /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				7498D87E2620F4E40069D268 /* Main.storyboard */,
 				7498D8812620F4E40069D268 /* Assets.xcassets */,
 				7498D8832620F4E40069D268 /* LaunchScreen.storyboard */,
+				7498D88E2620F7AD0069D268 /* start.txt */,
 				7498D8862620F4E40069D268 /* Info.plist */,
 			);
 			path = SwiftWords;
@@ -125,6 +128,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7498D8852620F4E40069D268 /* LaunchScreen.storyboard in Resources */,
+				7498D88F2620F7AD0069D268 /* start.txt in Resources */,
 				7498D8822620F4E40069D268 /* Assets.xcassets in Resources */,
 				7498D8802620F4E40069D268 /* Main.storyboard in Resources */,
 			);
