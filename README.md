@@ -22,5 +22,6 @@
 ## Solution preview
 | viewController | viewController | viewController |
 | :---------------: | :---------------: | :---------------: |
-| Source word   |  add an anagram | 
+| Source word   |  add an anagram | valid anagrams |
+
 
