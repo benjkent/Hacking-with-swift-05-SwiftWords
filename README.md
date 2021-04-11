@@ -23,6 +23,6 @@
 ## Solution preview
 | viewController | viewController | viewController | viewController |
 | :---------------: | :---------------: | :---------------: | :---------------: |
-| Source word   |  add an anagram | valid anagrams | error toast |
-| <img src="https://github.com/benjkent/Hacking-with-swift-05-SwiftWords/blob/main/screenshots/anagramword.png" > | <img src="https://github.com/benjkent/Hacking-with-swift-05-SwiftWords/blob/main/screenshots/EnterAWord.png" > | <img src="https://github.com/benjkent/Hacking-with-swift-05-SwiftWords/blob/main/screenshots/listofwords.png" > | <img src="">  | 
+| Source word   |  add an anagram | valid anagrams (i see bug) | error toast |
+| <img src="https://github.com/benjkent/Hacking-with-swift-05-SwiftWords/blob/main/screenshots/anagramword.png" > | <img src="https://github.com/benjkent/Hacking-with-swift-05-SwiftWords/blob/main/screenshots/EnterAWord.png" > | <img src="https://github.com/benjkent/Hacking-with-swift-05-SwiftWords/blob/main/screenshots/listofwords.png" > | <img src="https://github.com/benjkent/Hacking-with-swift-05-SwiftWords/blob/main/screenshots/ErrorNotPossible.png">  | 
 
