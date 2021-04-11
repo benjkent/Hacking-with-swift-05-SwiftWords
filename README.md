@@ -21,8 +21,8 @@
 ## Project Challenges
 *
 ## Solution preview
-| viewController | viewController | viewController |
-| :---------------: | :---------------: | :---------------: |
-| Source word   |  add an anagram | valid anagrams |
-
+| viewController | viewController | viewController | viewController |
+| :---------------: | :---------------: | :---------------: | :---------------: |
+| Source word   |  add an anagram | valid anagrams | error toast |
+| <img src="" > | <img src="" > | <img src="" > | <img src="">  | 
 
