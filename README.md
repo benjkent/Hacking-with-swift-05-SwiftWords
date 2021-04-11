@@ -19,7 +19,7 @@
 ## Swift topics covered in this project
 
 ## Project Challenges
-*
+* Make toast alert rather than alert controller.
 ## Solution preview
 | viewController | viewController | viewController | viewController |
 | :---------------: | :---------------: | :---------------: | :---------------: |
