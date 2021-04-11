@@ -56,20 +56,38 @@ class ViewController: UITableViewController {
     }
 
     func submit(_ answer: String){
-        let lowerAnser = answer.lowercased()
-        if isPossible(word: lowerAnser) {
-            if isOriginal(word: lowerAnser) {
-                if isReal(word: lowerAnser) {
+        let lowerAnswer = answer.lowercased()
+        
+        let errorTitle: String
+        let errorMessage: String
+        
+        if isPossible(word: lowerAnswer) {
+            if isOriginal(word: lowerAnswer) {
+                if isReal(word: lowerAnswer){
                     usedWords.insert(answer, at: 0)
                     
                     let indexPath = IndexPath(row: 0, section: 0)
                     tableView.insertRows(at: [indexPath], with: .automatic)
+                    
+                    return
+                } else {
+                    errorTitle = "Word not recognised"
+                    errorMessage = "You can't just make them up"
                 }
+                
+            } else {
+                errorTitle = "Word already used"
+                errorMessage = "Try more originality"
             }
         } else {
-            ViewController.toastUp(context: self, msg: "wrong")
+            guard let title = title?.lowercased() else {return}
+            errorTitle = "Word not possible"
+            errorMessage = "You can't spell that word from \(title)"
         }
+        ViewController.toastUp(context: self, titleMsg: errorTitle, msg: errorMessage)
+        
     }
+        
     func isPossible(word: String) -> Bool {
         guard var tempWord = title?.lowercased() else { return false }
         // prevents the user from using single letter twice or more.
@@ -91,7 +109,9 @@ class ViewController: UITableViewController {
         let misspelledRange = checker.rangeOfMisspelledWord(in: word, range: range, startingAt: 0, wrap: false, language: "en")
         return misspelledRange.location == NSNotFound
     }
-    static func toastUp(context ctx: UIViewController, msg: String) {
+    // Andrey Rudenko: How to add toast message in swift
+    static func toastUp(context ctx: UIViewController, titleMsg: String, msg: String) {
+        
         let toast = UILabel(frame: CGRect(x: 16, y: ctx.view.frame.height / 2, width: ctx.view.frame.size.width - 32, height: 100))
         
         toast.backgroundColor = UIColor.lightGray
@@ -101,10 +121,11 @@ class ViewController: UITableViewController {
         toast.font = UIFont.systemFont(ofSize: 20)
         toast.layer.cornerRadius = 12;
         toast.clipsToBounds = true
-        toast.text = msg
+        toast.text = titleMsg
+        toast.text?.append(contentsOf: " \(msg)")
         ctx.view.addSubview(toast)
         
-        UIView.animate(withDuration: 5.0, delay: 0.2, options: .curveEaseOut, animations: {toast.alpha = 0.0}, completion: {(isCompleted) in toast.removeFromSuperview()})
+        UIView.animate(withDuration: 8.5, delay: 0.2, options: .curveEaseOut, animations: {toast.alpha = 0.0}, completion: {(isCompleted) in toast.removeFromSuperview()})
     }
 }
 
