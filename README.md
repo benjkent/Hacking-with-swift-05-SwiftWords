@@ -30,7 +30,7 @@ Disallow answers shorter than three characters.
 | Source word   |  add an anagram | error toast  | error toast |
 | <img src="https://github.com/benjkent/Hacking-with-swift-05-SwiftWords/blob/main/screenshots/anagram.png" > | <img src="https://github.com/benjkent/Hacking-with-swift-05-SwiftWords/blob/main/screenshots/EnterWord.png" > | <img src="https://github.com/benjkent/Hacking-with-swift-05-SwiftWords/blob/main/screenshots/Error1.png" > | <img src="https://github.com/benjkent/Hacking-with-swift-05-SwiftWords/blob/main/screenshots/Error2.png">  | 
 | viewController | viewController | viewController | viewController | 
-| error toast |  |  |  | 
-| <img src="https://github.com/benjkent/Hacking-with-swift-05-SwiftWords/blob/main/screenshots/Error3.png" > |  |  |  |
+| error toast | new game refresh | |  |
+| <img src="https://github.com/benjkent/Hacking-with-swift-05-SwiftWords/blob/main/screenshots/Error3.png" > | <img src="https://github.com/benjkent/Hacking-with-swift-05-SwiftWords/blob/main/screenshots/refresh.png"> |  |  |
 
 
