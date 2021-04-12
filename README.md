@@ -23,10 +23,10 @@
 ## Solution preview
 | viewController | viewController | viewController | viewController |
 | :---------------: | :---------------: | :---------------: | :---------------: |
-| Source word   |  add an anagram | valid anagrams  | error toast |
-| <img src="https://github.com/benjkent/Hacking-with-swift-05-SwiftWords/blob/main/screenshots/anagramword.png" > | <img src="https://github.com/benjkent/Hacking-with-swift-05-SwiftWords/blob/main/screenshots/EnterAWord.png" > | <img src="https://github.com/benjkent/Hacking-with-swift-05-SwiftWords/blob/main/screenshots/listofwords.png" > | <img src="https://github.com/benjkent/Hacking-with-swift-05-SwiftWords/blob/main/screenshots/ErrorNotPossible.png">  | 
+| Source word   |  add an anagram | error toast  | error toast |
+| <img src="https://github.com/benjkent/Hacking-with-swift-05-SwiftWords/blob/main/screenshots/anagram.png" > | <img src="https://github.com/benjkent/Hacking-with-swift-05-SwiftWords/blob/main/screenshots/EnterWord.png" > | <img src="https://github.com/benjkent/Hacking-with-swift-05-SwiftWords/blob/main/screenshots/Error1.png" > | <img src="https://github.com/benjkent/Hacking-with-swift-05-SwiftWords/blob/main/screenshots/Error2.png">  | 
 | viewController | viewController | viewController | viewController | 
-| error toast | error toast |  |  | 
-| < img src=" " > | < img src=" "> |  |  |
+| error toast |  |  |  | 
+| < img src=" " > |  |  |  |
 
 
