@@ -16,7 +16,7 @@ class ViewController: UITableViewController {
         super.viewDidLoad()
 
         navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(promptForAnswer))
-        
+        navigationItem.leftBarButtonItem = UIBarButtonItem(barButtonSystemItem: .refresh, target: self, action: #selector(newGame))
         if let startWordsURL = Bundle.main.url(forResource: "start", withExtension: "txt") {
             if let startWords = try? String(contentsOf: startWordsURL){
                 allWords = startWords.components(separatedBy: "\n")
@@ -41,7 +41,9 @@ class ViewController: UITableViewController {
         cell.textLabel?.text = usedWords[indexPath.row]
         return cell
     }
-    
+    @objc func newGame(){
+        startGame()
+    }
     @objc func promptForAnswer() {
         let ac = UIAlertController(title: "Enter Word", message: nil, preferredStyle: .alert)
         ac.addTextField()
@@ -54,7 +56,7 @@ class ViewController: UITableViewController {
         present(ac, animated: true)
         
     }
-
+    
     func submit(_ answer: String){
         let lowerAnswer = answer.lowercased()
         

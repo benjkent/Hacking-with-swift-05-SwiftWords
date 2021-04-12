@@ -34,6 +34,7 @@
 		747C44DE2624D509005A7565 /* Error1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Error1.png; sourceTree = "<group>"; };
 		747C44DF2624D509005A7565 /* anagram.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = anagram.png; sourceTree = "<group>"; };
 		747C44E02624D509005A7565 /* EnterWord.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EnterWord.png; sourceTree = "<group>"; };
+		747C44E32624F0BD005A7565 /* refresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = refresh.png; sourceTree = "<group>"; };
 		7498D8752620F4E40069D268 /* SwiftWords.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftWords.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7498D8782620F4E40069D268 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7498D87A2620F4E40069D268 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +67,7 @@
 		747C44DB2624D509005A7565 /* screenshots */ = {
 			isa = PBXGroup;
 			children = (
+				747C44E32624F0BD005A7565 /* refresh.png */,
 				747C44DC2624D509005A7565 /* Error3.png */,
 				747C44DD2624D509005A7565 /* Error2.png */,
 				747C44DE2624D509005A7565 /* Error1.png */,
