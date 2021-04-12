@@ -12,12 +12,25 @@
 * Display user input in a table list (F.I.L.O)
 * Load data from .txt file (BIG text file...)
 ## Coding Overview
-*  
+*  Load data from file, process data, generate a list
+*  Use navbar for buttons
+*  Get user input and validate it.
+* Alert if input is not appropriate.
+* Add values to a list dynamically: first in last out.
+* Refresh the application clear and refresh.
+
 ## Credit
 * Hackingwithswift [Project 5](https://www.hackingwithswift.com/100/27)
 * Andrey Rudenko (Andrew) Nov 28, 2017 [Add Toast message in swift](https://stackoverflow.com/questions/31540375/how-to-toast-message-in-swift) 
 ## Swift topics covered in this project
-* 
+*  Loading data from a file
+*  Getting a random Item from a list
+*  Navigaion Bar ltems
+*  Trailing closure syntax to handle when Submit button is touched.
+*  Use the UITextChecker designed to spot spelling errors.
+*  NSRange: To store a string range. 0 and word.length
+* Use .automatic to animate the list when a new anagram is added. 
+* Create a toast animation to show errors that show then fade away. 
 ## Project Challenges
 * Make toast alert rather than alert controller.
 Disallow answers shorter than three characters.
