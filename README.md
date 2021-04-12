@@ -27,6 +27,6 @@
 | <img src="https://github.com/benjkent/Hacking-with-swift-05-SwiftWords/blob/main/screenshots/anagram.png" > | <img src="https://github.com/benjkent/Hacking-with-swift-05-SwiftWords/blob/main/screenshots/EnterWord.png" > | <img src="https://github.com/benjkent/Hacking-with-swift-05-SwiftWords/blob/main/screenshots/Error1.png" > | <img src="https://github.com/benjkent/Hacking-with-swift-05-SwiftWords/blob/main/screenshots/Error2.png">  | 
 | viewController | viewController | viewController | viewController | 
 | error toast |  |  |  | 
-| < img src="https://github.com/benjkent/Hacking-with-swift-05-SwiftWords/blob/main/screenshots/Error3.png" > |  |  |  |
+| <img src="https://github.com/benjkent/Hacking-with-swift-05-SwiftWords/blob/main/screenshots/Error3.png" > |  |  |  |
 
 
