@@ -91,6 +91,9 @@ class ViewController: UITableViewController {
     }
         
     func isPossible(word: String) -> Bool {
+        if word.count == 0  {
+            return false
+        }
         guard var tempWord = title?.lowercased() else { return false }
         // prevents the user from using single letter twice or more.
         for letter in word {
