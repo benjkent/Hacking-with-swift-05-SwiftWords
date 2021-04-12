@@ -12,12 +12,15 @@
 * Display user input in a table list (F.I.L.O)
 * Load data from .txt file (BIG text file...)
 ## Coding Overview
-* 
+*  Disallow answers shorter than three characters.
+*  Refactor all else statements. Create showErrorMessage( message: String, title: String) { }
+*  Add button to start a new game. 
+ * Fix the bugs... Capitals and no entry as valid entries.
 ## Credit
 * Hackingwithswift [Project 5](https://www.hackingwithswift.com/100/27)
 * Andrey Rudenko (Andrew) Nov 28, 2017 [Add Toast message in swift](https://stackoverflow.com/questions/31540375/how-to-toast-message-in-swift) 
 ## Swift topics covered in this project
-
+* 
 ## Project Challenges
 * Make toast alert rather than alert controller.
 ## Solution preview
